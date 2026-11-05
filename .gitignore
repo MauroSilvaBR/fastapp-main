@@ -1,0 +1,52 @@
+# Raiz do projeto FastApp
+.backend_test.log
+
+# macOS
+.DS_Store
+
+# IDEs / editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.orig
+*.rej
+*.bak
+
+# Python venv e secrets do backend
+**/.venv/
+backend/.venv/
+backend/.env
+backend/.langgraph_api
+backend/.backend_test.log
+
+# Python caches / artefatos de teste
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+backend/.pytest_cache/
+backend/tests/__pycache__/
+
+# Node/Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env
+frontend/.env.*
+frontend/.env.*.local
+frontend/.turbo/
+frontend/.vercel/
+frontend/.eslintcache
+frontend/*.tsbuildinfo
+
+# Documentação (anotações locais, não versionar)
+docs/
+
+# Clerk (pode conter segredos locais)
+frontend/.clerk/
